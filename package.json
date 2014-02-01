@@ -1,0 +1,32 @@
+{
+  "name": "nodedev",
+  "version": "0.0.1",
+  "description": "Wrapper for nodemon and node-inspector as a replacement for no longer maintained nodev",
+  "homepage": "http://github.com/akamensky/nodedev",
+  "author": {
+    "name": "Alexey Kamenskiy",
+    "email": "aleksey.kamensky@gmail.com"
+  },
+  "keywords": [
+    "debug",
+    "debugger",
+    "inspector",
+    "profiler",
+	"nodemon"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/akamensky/nodedev.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bin": {
+    "nodedev": "./nodedev.js"
+  },
+  "dependencies": {
+    "nodemon": "~1.0.14",
+    "node-inspector": "~0.7.0"
+  },
+  "preferGlobal": true
+}
