@@ -5,7 +5,7 @@ Nodedev is a wrapper for nodemon and node-inspector as a replacement for no long
 # Installation
 
 ```sh
-$ sudo npm install -g git+https://github.com/akamensky/nodedev.git
+$ sudo npm install -g nodedev
 ```
 
 # Usage
