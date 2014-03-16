@@ -1,32 +1,48 @@
 {
-  "name": "nodedev",
-  "version": "0.0.1",
-  "description": "Wrapper for nodemon and node-inspector as a replacement for no longer maintained nodev",
-  "homepage": "http://github.com/akamensky/nodedev",
+  "name": "nodev",
+  "version": "0.8.1",
+  "description": "Auto re-loading of node apps with node-inspector",
+  "homepage": "http://akamensky.github.io/nodev/",
   "author": {
-    "name": "Alexey Kamenskiy",
-    "email": "aleksey.kamensky@gmail.com"
+    "name": "Eric Vicenti",
+    "url": "http://github.com/ericvicenti"
   },
-  "keywords": [
-    "debug",
-    "debugger",
-    "inspector",
-    "profiler",
-	"nodemon"
+  "contributors": [
+    {
+      "name": "Alexey Kamenskiy",
+      "email": "aleksey.kamensky@gmail.com",
+      "url": "http://github.com/akamensky/"
+    }
+  ],
+  "keywords": ["monitor", 
+    "development", 
+    "restart", 
+    "autoload", 
+    "reload", 
+    "debug", 
+    "node-inspector", 
+    "dev", 
+    "inspector", 
+    "console"
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/akamensky/nodedev.git"
+    "url": "http://github.com/akamensky/nodev.git"
   },
   "engines": {
     "node": ">=0.8.0"
   },
   "bin": {
-    "nodedev": "./nodedev.js"
+    "nodev": "./nodev.js"
   },
   "dependencies": {
     "nodemon": "~1.0.14",
     "node-inspector": "~0.7.0"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://rem.mit-license.org"
+  }],
+  "main": "./nodev"
 }
