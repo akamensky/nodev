@@ -1,6 +1,6 @@
 # Description
 
-Nodedev is a wrapper for nodemon and node-inspector as a replacement for no longer maintained nodev. It will automatically start Node.js process in debug mode and start node-inspector attached to it.
+Nodev is a wrapper for `nodemon` and `node-inspector`. It will automatically start Node.js process in debug mode and start node-inspector attached to it.
 
 # Installation
 
@@ -13,11 +13,11 @@ $ sudo npm install -g nodev
 Start with default settings:
 
 ```sh
-$ nodedev ./app.js
+$ nodev ./app.js
 ```
 This will start your script as Node.js application with `--debug=7000` option. To start application paused at first line use:
 ```sh
-$ nodedev --debug-brk ./app.js
+$ nodev --debug-brk ./app.js
 ```
 This will start your application as if it was executed with `--debug-brk=7000` option.
 
