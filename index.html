@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Nodev by akamensky</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Nodev</h1>
+        <p>Wrapper for nodemon and node-inspector as a new version nodev</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/akamensky/nodev" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/akamensky/nodev/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/akamensky/nodev/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description</h1>
+
+<p>Nodev is a wrapper for <code>nodemon</code> and <code>node-inspector</code>. It will automatically start Node.js process in debug mode and start node-inspector attached to it.</p>
+
+<h1>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h1>
+
+<div class="highlight highlight-sh"><pre><span class="nv">$ </span>sudo npm install -g nodev
+</pre></div>
+
+<h1>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<p>Start with default settings:</p>
+
+<div class="highlight highlight-sh"><pre><span class="nv">$ </span>nodev ./app.js
+</pre></div>
+
+<p>This will start your script as Node.js application with <code>--debug=7000</code> option. To start application paused at first line use:</p>
+
+<div class="highlight highlight-sh"><pre><span class="nv">$ </span>nodev --debug-brk ./app.js
+</pre></div>
+
+<p>This will start your application as if it was executed with <code>--debug-brk=7000</code> option.</p>
+
+<h1>
+<a name="what-doesnt-work" class="anchor" href="#what-doesnt-work"><span class="octicon octicon-link"></span></a>What doesn't work</h1>
+
+<p>Currently there is no way to specify another debugging port apart of <code>7000</code>. If you try to debug two applications at the same time it will show error that port is in use. To change this behavior either submit ticket and then I will do it when I have time or send me a pull request.</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/akamensky">akamensky</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-48986350-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
