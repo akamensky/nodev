@@ -22,4 +22,4 @@ $ nodev --debug-brk ./app.js
 This will start your application as if it was executed with `--debug-brk=7000` option.
 
 # What doesn't work
-Currently there is no way to specify another debugging port apart of `7000`. If you try to debug two applications at the same time it will show error that port is in use. To change this behavior either submit ticket and then I will do it when I have time or send me a pull request.
+See full list of open tickets here : https://github.com/akamensky/nodev/issues I'll be happy to accept pull requests closing those tickets.
