@@ -37,7 +37,9 @@
   },
   "dependencies": {
     "nodemon": "~1.0.14",
-    "node-inspector": "~0.7.0"
+    "node-inspector": "~0.7.0",
+    "portscanner": "0.2.2",
+    "async":"0.2.10"
   },
   "preferGlobal": true,
   "licenses": [{

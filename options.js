@@ -1,6 +1,6 @@
 var options = {
-	debug_port:7000,
-	web_port:7001,
+	port_range_start:7000,
+	port_range_end:7999,
 };
 
 module.exports = options;
