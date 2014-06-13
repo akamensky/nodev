@@ -1,6 +1,6 @@
 {
   "name": "nodev",
-  "version": "0.8.4",
+  "version": "0.8.5",
   "description": "Auto re-loading of node apps with node-inspector",
   "homepage": "http://akamensky.github.io/nodev/",
   "author": {
