@@ -1,0 +1,6 @@
+language: node_js
+deploy:
+  api_key:
+    secure: nmce3MDQycfuGPPXIpgTQsRnwiUxF9MiCjAJT9pcP1sZiy/C/vKlr0Vg0cmch3wQO3nOlgBU9Vlndy2SGxMNPMkCsfyNW1DNCnOjgHT7HMsDi2DHvgpSmhRAh20UD4CtJwWCJ01qiSMsN8HIPU5hut/2W3NAqSHw1iZM2kcDDJs=
+  email: aleksey.kamensky@gmail.com
+  provider: npm
