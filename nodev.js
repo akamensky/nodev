@@ -61,7 +61,7 @@ function main_part(callback){
 
 	nodemon.on('start', function(){
 		if(inspector != false) return;
-		var inspectorArgs = ['--debug-port='+debug_port, '--web-port='+web_port];
+		var inspectorArgs = ['--debug-port='+debug_port, '--web-port='+web_port, '--no-preload', '--save-live-edit'];
 		var forkOptions = { silent: false };
 		inspector = fork(
 			require.resolve('node-inspector/bin/inspector'),
