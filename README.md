@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/akamensky/nodev.svg?branch=master)](https://travis-ci.org/akamensky/nodev)
+
 # Description
 
 Nodev is a wrapper for `nodemon` and `node-inspector`. It will automatically start Node.js process in debug mode and start node-inspector attached to it.
