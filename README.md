@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/akamensky/nodev.svg?branch=master)](https://travis-ci.org/akamensky/nodev)
+[![Dependency Status](https://david-dm.org/akamensky/nodev.svg)](https://david-dm.org/akamensky/nodev)
 
 # Description
 
